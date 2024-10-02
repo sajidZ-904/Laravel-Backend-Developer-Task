@@ -31,6 +31,7 @@ b.
 Suppose you have a Context facade to handle user sessions or application state:
 
 ```bash
+  <?php
   namespace App\Facades;
 
   use Illuminate\Support\Facades\Facade;
@@ -56,6 +57,7 @@ In the above example, the Context facade allows setting and retrieving the curre
 You can use Cache Facade to store and retrieve data:
 
 ```bash
+  <?php
   use Illuminate\Support\Facades\Cache;
 
   Cache::put('user_1', $user, 600);
