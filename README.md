@@ -11,3 +11,6 @@ a. The performance is improved by using Eloquent's ```with()``` for eager loadin
 b. The refactored code eliminates redundant queries by fetching all necessary data in a single step and avoids looping over items unnecessarily. Calculations are done using collection methods to enhance readability and performance. Further improvements could include caching query results or moving complex logic to database views or stored procedures for even better performance.
 
 The refactored code is in the Eloquent.php file
+
+**Task 3: Testing**
+The refactored code is in the SpreadSheetService.php file
